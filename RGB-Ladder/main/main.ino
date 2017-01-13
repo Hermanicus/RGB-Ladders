@@ -15,11 +15,10 @@ void setup() {
   Serial.begin(9600);
   }
 
-// the loop function runs over and over again forever
 void loop() {
-  val = analogRead(analogPin);
+  val = analogRead(analogPin); // Value 0-1023
   Serial.println(val);
-  int redNow = val / 4;
+  int rainbowPos = val / 4;
  //Write R
  analogWrite(redPin,redNow);
  delay(100);
