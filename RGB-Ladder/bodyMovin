@@ -1,0 +1,13 @@
+#include <a1Sound>
+
+Body movin´
+Body movin´
+
+uint16_t thisSound = geta1Sound(); 
+
+if(!youKnowWeGroovin)
+{
+	checkIt = a1Sound;
+	checkit += a1Sound * checkIt*checkIt
+}
+
